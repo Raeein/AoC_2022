@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Raeein/AoC_2022/day4"
+	"github.com/Raeein/AoC_2022/day5"
 	"github.com/Raeein/AoC_2022/files"
 	"os"
 )
@@ -16,5 +16,5 @@ func main() {
 	arg := os.Args[1]
 	lines, err := files.ReadFromFileString(arg)
 	check(err)
-	day4.Solve2(lines)
+	day5.Solve2(lines)
 }
